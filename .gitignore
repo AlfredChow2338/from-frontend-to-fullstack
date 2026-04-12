@@ -1,0 +1,7 @@
+# NestJS Zero To Hero (Udemy) — ignore rules formerly in task-management/.gitignore
+NestJS-Zero-To-Hero-Udemy/task-management/dist
+NestJS-Zero-To-Hero-Udemy/task-management/coverage
+NestJS-Zero-To-Hero-Udemy/task-management/.nyc_output
+NestJS-Zero-To-Hero-Udemy/task-management/logs
+NestJS-Zero-To-Hero-Udemy/task-management/*.log
+NestJS-Zero-To-Hero-Udemy/task-management/node_modules
