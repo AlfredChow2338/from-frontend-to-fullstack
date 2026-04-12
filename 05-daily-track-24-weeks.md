@@ -117,7 +117,7 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 
 | Day | Date       | Time | Done | Task                                                                                                                         |
 | --- | ---------- | ---- | ---- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Mon | 2026-04-13 | 1h   | [ ]  | Install **Node LTS**; `node -v` / `npm -v`; create folder `playground-node`; `npm init -y`.                                  |
+| Mon | 2026-04-13 | 1h   | [x]  | Install **Node LTS**; `node -v` / `npm -v`; create folder `playground-node`; `npm init -y`.                                  |
 | Tue | 2026-04-14 | 1h   | [ ]  | Add **TypeScript** (or plain JS first week—pick one and keep): `tsconfig`, compile/run script; one `console.log` entry file. |
 | Wed | 2026-04-15 | 1h   | [ ]  | Load config: `.env` + `.env.example` (no secrets in git); read one variable in code; document in README stub.                |
 | Thu | 2026-04-16 | 1h   | [ ]  | **async/await**: one function that `await`s a `Promise`; `try/catch`; log error without killing the process wrongly.         |
