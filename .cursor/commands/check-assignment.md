@@ -1,14 +1,14 @@
-# Check assignment (fullstack roadmap)
-
+---
+description: Review fullstack roadmap assignment answers for a day, add explanations and file comments, mark done if acceptable
 ---
 
-## description: Review fullstack roadmap assignment answers for a day, add explanations and file comments, mark done if acceptable
+# Check assignment (fullstack roadmap)
 
-Use this when the learner wants feedback on **today’s two questions** and optional **mark-as-done** in the daily track.
+Use when the workspace root is **`from-frontend-to-fullstack`** (paths below are relative to this folder).
 
-## Paths (workspace root)
+## Paths
 
-- Daily track: `05-daily-track-24-weeks.md` (section **Daily assignments by calendar day**)
+- Daily track: `05-daily-track-24-weeks.md` (weekly **`| Day | Date | Time | Done | Task |`** tables: use the **Date** column to find rows for `{date}` and set **Done** to `[x]` when acceptable; plus **Daily assignments by calendar day** below Week 24)
 - Answer file: `assignments/{YYYY-MM-DD}.md`
 - Mark script: `node scripts/mark-assignment-done.js {YYYY-MM-DD}`
 
@@ -35,24 +35,39 @@ Use this when the learner wants feedback on **today’s two questions** and opti
 5. **Teach (in chat)**
    - Add a short **Explanations for this day** (or similar) in your reply: theme of the week, jargon, 1–2 examples or mental models. The file’s `### Reviewer comments` can be tighter; the chat section can go a bit broader.
 
-6. **If acceptable — update status**
+6. **If acceptable — update status (all required)**
+
+   Do **6a**, then **6b**, every time the review is acceptable. Do not skip the weekly table.
+
+   **6a — Script (written assignment + daily section)**
+
    - Run:
 
      ```bash
-     cd node scripts/mark-assignment-done.js YYYY-MM-DD
+     node scripts/mark-assignment-done.js YYYY-MM-DD
      ```
 
-   - Confirm both `assignments/{date}.md` and the matching day in `05-daily-track-24-weeks.md` show `- [x] **Assignment done**`.
+     (from this repo root, or `cd from-frontend-to-fullstack && …` if the shell cwd is higher.)
+
+   - Confirm `assignments/{date}.md` and the matching **`#### … {date}`** block under **Daily assignments by calendar day** show `- [x] **Assignment done**`.
+
+   **6b — Weekly task table (`Done`, matched by `Date`) — same file, Month sections**
+
+   - Open `05-daily-track-24-weeks.md` and find **`### Week N`** whose date range includes `{date}` (use **Week → date range (2026)** or Monday **`2026-04-13`** = Week 1).
+   - In that week’s table, columns are: **Day \| Date \| Time \| Done \| Task**. Match rows where the **Date** cell is exactly **`{date}`** (same `YYYY-MM-DD` string as the assignment file).
+   - On **every** matching row, change the **Done** cell from **`[ ]`** to **`[x]`** (preserve spacing like `[ ]` → `[x]` to match the file). Do **not** change rows with other dates.
+   - Weekdays usually have **one** row per `{date}`; **Sat**/**Sun** can have **up to four** rows sharing the same **Date**—update **Done** on **all** of them unless the learner asked to tick only some (see caveat).
+   - If every matching row is already **`[x]`**, leave the table as-is.
+   - **Weekend caveat:** If the learner says they did **not** finish all four slots, only set **`[x]`** on the rows they name; otherwise set **`[x]`** on all rows whose **Date** equals `{date}` and remind them they can uncheck any slot still open.
+   - Briefly confirm in chat how many table rows were updated (e.g. “1 row” or “4 rows for 2026-04-18”).
 
 7. **If not acceptable**
-   - Do **not** run the script. Still complete **step 4** so the file records what to fix. List concrete gaps in chat; the learner can revise and run this command again.
+   - Do **not** run the script. Do **not** change **`[ ]` → `[x]`** in the weekly table on rows whose **Date** equals `{date}`. Still complete **step 4** so the file records what to fix. List concrete gaps in chat; the learner can revise and run this command again.
 
 ## Regenerating per-day files
 
-If assignment markdown files were generated before `## My answers` existed, regenerate (overwrites files):
-
 ```bash
-cd node scripts/generate-daily-assignments.js --write-files
+node scripts/generate-daily-assignments.js --write-files
 ```
 
 Warn the user that this overwrites existing `assignments/*.md` if they have edits there.
