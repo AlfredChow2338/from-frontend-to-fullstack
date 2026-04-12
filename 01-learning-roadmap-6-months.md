@@ -1,6 +1,6 @@
 # Learning roadmap — 6 months
 
-Assumes **10–15 hours/week** of focused study and building. A concrete schedule (**1 hour Mon–Fri + 4 hours Sat–Sun = 13 hours/week**) maps to **[05-daily-track-24-weeks.md](05-daily-track-24-weeks.md)**—use that file for **daily** checklists. Adjust proportionally if you have more or less time; protect **one shipped milestone per week** as the minimum bar.
+Assumes **10–15 hours/week** of focused study and building. A concrete schedule (**1 hour Mon–Fri + 4 hours Sat–Sun = 13 hours/week**) maps to **[05-daily-track-24-weeks.md](05-daily-track-24-weeks.md)**—use that file for **daily** checklists, calendar starting **13 Apr 2026 (Monday)**, and **written assignments** (a calendar day counts complete only when tasks **and** that day’s assignment are done). Adjust proportionally if you have more or less time; protect **one shipped milestone per week** as the minimum bar.
 
 ## Month 1 — Node + HTTP + NestJS skeleton
 

@@ -10,7 +10,7 @@ This folder holds a structured learning plan and portfolio strategy for moving f
 ## How to use this folder
 
 1. Read **[01-learning-roadmap-6-months.md](01-learning-roadmap-6-months.md)** for the month-by-month syllabus and milestones.
-2. Follow **[05-daily-track-24-weeks.md](05-daily-track-24-weeks.md)** for **day-by-day** checklists (1h weekdays + 4h weekends = 13h/week), including **[NestJS Zero to Hero](https://www.udemy.com/course/nestjs-zero-to-hero/)** (Ariel Weinberger) integrated **Weeks 2–9** with a **two-repo** rule (Udemy + `portfolio-api`).
+2. Follow **[05-daily-track-24-weeks.md](05-daily-track-24-weeks.md)** for **day-by-day** checklists (1h weekdays + 4h weekends = 13h/week), calendar starting **Mon 13 Apr 2026**, **daily written assignments** (day = done only with tasks + assignment), and **[NestJS Zero to Hero](https://www.udemy.com/course/nestjs-zero-to-hero/)** (Ariel Weinberger) integrated **Weeks 2–9** with a **two-repo** rule (Udemy + `portfolio-api`).
 3. Track depth with **[02-nestjs-stack-checklist.md](02-nestjs-stack-checklist.md)** (“done means…” for each topic).
 4. Shape shipping work using **[03-portfolio-projects.md](03-portfolio-projects.md)** (project specs and README signals).
 5. Keep momentum with **[04-weekly-rhythm-and-metrics.md](04-weekly-rhythm-and-metrics.md)** (weekly cadence and measurable outputs).
@@ -32,7 +32,8 @@ This folder holds a structured learning plan and portfolio strategy for moving f
 | File | Contents |
 |------|----------|
 | [01-learning-roadmap-6-months.md](01-learning-roadmap-6-months.md) | Phased syllabus, weekly focus, milestones |
-| [05-daily-track-24-weeks.md](05-daily-track-24-weeks.md) | Daily checklists + [Udemy NestJS Zero to Hero](https://www.udemy.com/course/nestjs-zero-to-hero/) map (Mon–Fri 1h, Sat–Sun 4h) |
+| [05-daily-track-24-weeks.md](05-daily-track-24-weeks.md) | Calendar from 13 Apr 2026, daily tasks, **written assignments** per day, Udemy map (13h/week) |
+| [assignments/](assignments/) | One `{YYYY-MM-DD}.md` per day with the two questions (`--write-files` in [scripts/generate-daily-assignments.js](scripts/generate-daily-assignments.js)) |
 | [02-nestjs-stack-checklist.md](02-nestjs-stack-checklist.md) | Topic checklist with completion criteria |
 | [03-portfolio-projects.md](03-portfolio-projects.md) | Two-project portfolio strategy and README template |
 | [04-weekly-rhythm-and-metrics.md](04-weekly-rhythm-and-metrics.md) | Time split, weekly rhythm, metrics, interview hooks |

@@ -2,7 +2,7 @@
 
 Consistency beats intensity. This section turns the roadmap into **repeatable weekly habits** and **measurable outputs** so you can course-correct before month-end.
 
-For **day-level** tasks (1h on weekdays, 4h on Sat–Sun), use **[05-daily-track-24-weeks.md](05-daily-track-24-weeks.md)**; use this file for ratios and weekly metrics.
+For **day-level** tasks (1h on weekdays, 4h on Sat–Sun), use **[05-daily-track-24-weeks.md](05-daily-track-24-weeks.md)** (calendar from **13 Apr 2026**, plus **written assignments** per day); use this file for ratios and weekly metrics.
 
 ---
 
@@ -42,6 +42,7 @@ Minimum:
 | Ship log | ≥1 merged meaningful PR or equivalent commit set |
 | Tests | Net new or strengthened tests on critical path |
 | Demo | Can you show **something working** in 5 minutes? Yes/No |
+| Daily assignments | Every calendar day in **[05-daily-track-24-weeks.md](05-daily-track-24-weeks.md)**: tasks done **and** **Assignment done** for that date (written answers) |
 
 Stretch:
 
@@ -95,5 +96,6 @@ You hit **green** if all are true:
 - [ ] At least one concrete artifact moved toward **Project 1 or 2** (code, test, or deploy)  
 - [ ] You can **demo** progress without apologizing for “still WIP” everywhere  
 - [ ] [02-nestjs-stack-checklist.md](02-nestjs-stack-checklist.md) gained **one** new honest checkmark  
+- [ ] Every day you claimed “worked” has **Assignment done** in [05-daily-track-24-weeks.md](05-daily-track-24-weeks.md) for that calendar date (written answers)  
 
 When weeks are red three times in a row, shrink scope and shorten milestones—velocity matters more than ambition on the calendar.
