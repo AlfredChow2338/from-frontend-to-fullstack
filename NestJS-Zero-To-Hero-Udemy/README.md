@@ -1,5 +1,14 @@
 # Project 1: Task Management
 
+### Nest CLI
+
+```bash
+# generate module / service / controller
+nest g module {module_name}
+nest g service {service_name} --no-spec
+nest g controller {controller_name} --no-spec
+```
+
 ### Application Structure
 
 ![Task management architecture](../assets/task-management-architecture.png)
