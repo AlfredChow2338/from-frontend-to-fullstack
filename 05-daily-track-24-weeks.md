@@ -118,7 +118,7 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 | Day | Date       | Time | Done | Task                                                                                                                         |
 | --- | ---------- | ---- | ---- | ---------------------------------------------------------------------------------------------------------------------------- |
 | Mon | 2026-04-13 | 1h   | [x]  | Install **Node LTS**; `node -v` / `npm -v`; create folder `playground-node`; `npm init -y`.                                  |
-| Tue | 2026-04-14 | 1h   | [ ]  | Add **TypeScript** (or plain JS first week—pick one and keep): `tsconfig`, compile/run script; one `console.log` entry file. |
+| Tue | 2026-04-14 | 1h   | [x]  | Add **TypeScript** (or plain JS first week—pick one and keep): `tsconfig`, compile/run script; one `console.log` entry file. |
 | Wed | 2026-04-15 | 1h   | [ ]  | Load config: `.env` + `.env.example` (no secrets in git); read one variable in code; document in README stub.                |
 | Thu | 2026-04-16 | 1h   | [ ]  | **async/await**: one function that `await`s a `Promise`; `try/catch`; log error without killing the process wrongly.         |
 | Fri | 2026-04-17 | 1h   | [ ]  | `package.json` scripts: `build`, `start` (and `dev` if using watch); run from clean `npm install`.                           |
@@ -627,49 +627,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What is the Node.js LTS policy in one sentence, and which `node -v` output proves your install?
 2. Why does `npm init -y` create a `package.json`, and what two fields identify the project?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-04-14
 
 1. What is the difference between compiling TS with `tsc` and running with `ts-node` / `tsx`?
 2. What does `"strict": true` in `tsconfig.json` change for you as a developer?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-04-15
 
 1. Why commit `.env.example` but not `.env`? What could go wrong if `.env` is pushed to Git?
 2. Name one way to read `process.env.MY_VAR` in a typed way.
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-04-16
 
 1. What happens to an unhandled `Promise` rejection in Node? How does `try/catch` around `await` help?
 2. In one sentence: what runs on the microtask queue vs the next tick?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-04-17
 
 1. What is the purpose of the `scripts` field in `package.json`? Give an example `npm run` you added.
 2. What is the difference between `dependencies` and `devDependencies`?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-04-18
 
 1. List two things that are _not_ the same between browser JS and Node (APIs or globals).
 2. In your own words: what does “single-threaded event loop” mean for CPU-heavy work?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-04-19
 
 1. Pick one line from a stack trace you saw: what file/function did it point to, and what did you change?
 2. What rule did ESLint enforce that you fixed, and why might that rule exist?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 2 — HTTP & REST + Udemy start (2026-04-20 — 2026-04-26)
 
@@ -678,49 +678,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. When do you use POST vs PATCH for a “Note” resource?
 2. Which HTTP status would you return for validation errors vs “not found”?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-04-21
 
 1. Give one example each for 201, 204, 409 in a REST API.
 2. What does `422 Unprocessable Entity` imply about the request body?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-04-22
 
 1. Which HTTP methods are idempotent? Why does that matter for retries?
 2. When is PUT _not_ a good fit compared to PATCH?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-04-23
 
 1. Sketch your standard JSON error shape and when you’d include `details`.
 2. How do you avoid leaking internal errors to clients in production?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-04-24
 
 1. Compare offset vs cursor pagination; when is cursor safer?
 2. What query params would you use for sorting a list safely?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-04-25
 
 1. For your `Note` resource: list routes and who may call them (public vs auth).
 2. Draw the request body for `POST /notes` — required vs optional fields.
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-04-26
 
 1. What did you create in `udemy-zero-to-hero` today, and how does it differ from `portfolio-api`?
 2. What is `nest new` doing on disk (folders you care about)?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 3 — NestJS core (CRUD) + Udemy Task API (2026-04-27 — 2026-05-03)
 
@@ -729,49 +729,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What is the responsibility of a Nest module vs a controller vs a service?
 2. What is a DTO and why validate at the boundary?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-04-28
 
 1. How does Nest resolve a provider (service) inside a controller?
 2. What is `@Module({ imports, controllers, providers })` doing?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-04-29
 
 1. What decorators from `class-validator` did you use, and what error does Nest return on failure?
 2. What does `ValidationPipe` do before your handler runs?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-04-30
 
 1. How do you return 404 for unknown id — which exception type?
 2. Why return a response DTO instead of the raw entity?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-05-01
 
 1. PATCH vs PUT in your API: which did you implement and why?
 2. How do you avoid overwriting fields the client omitted in PATCH?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-05-02
 
 1. Where did you put business logic — controller or service — and why?
 2. How do you test a route manually with curl or REST Client?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-05-03
 
 1. What is “thin controller, fat service” in one example from your code?
 2. What edge cases did you handle for list pagination?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 4 — Swagger + unit tests + Udemy validation (2026-05-04 — 2026-05-10)
 
@@ -780,49 +780,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What does `@ApiTags` / `@ApiOperation` buy you in Swagger UI?
 2. How do you document auth (Bearer) in Swagger for protected routes?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-05-05
 
 1. What is the difference between `@ApiResponse` and your actual runtime behavior?
 2. Why add example bodies to POST in Swagger?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-05-06
 
 1. How does Swagger help a frontend developer integrate?
 2. What is one pitfall of outdated Swagger decorators?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-05-07
 
 1. What is the difference between unit tests and e2e tests in Nest?
 2. What does `describe` / `it` map to in your mental model?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-05-08
 
 1. What pure logic did you unit test, and what did you mock?
 2. What would cause your unit test to be flaky if it hit the real DB?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-05-09
 
 1. What coverage do you _not_ need for a portfolio API, and why?
 2. Name one assertion that proves a business rule.
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-05-10
 
 1. What duplicate / conflict behavior did you implement or defer (409)?
 2. What will you tackle first in Month 2 based on your retro?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 5 — Config, filters, logging + Udemy logging/config (2026-05-11 — 2026-05-17)
 
@@ -831,49 +831,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. How does `ConfigModule` load `.env`, and what runs in production instead?
 2. Why validate env at bootstrap?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-05-12
 
 1. What does a global exception filter change about HTTP responses?
 2. When would you use `HttpException` vs a custom domain error?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-05-13
 
 1. What must never appear in logs (PII examples)?
 2. What is structured logging vs `console.log`?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-05-14
 
 1. Name one env var your app refuses to start without.
 2. How do you document env vars for another developer?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-05-15
 
 1. What is `x-request-id` / correlation id used for?
 2. What is the order: middleware → guard → interceptor → handler?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-05-16
 
 1. How does Nest `Logger` differ from `console.log` in a service?
 2. What log level would you use for “incoming request” vs “unexpected error”?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-05-17
 
 1. What did you read about Guards in the docs, and how does it connect to Week 7?
 2. What is one config value you moved out of magic strings?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 6 — Auth basics + Udemy TypeORM & Postgres (2026-05-18 — 2026-05-24)
 
@@ -882,49 +882,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. Why hash passwords with bcrypt/argon2 instead of SHA-256?
 2. What does “never return the password” mean in API responses?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-05-19
 
 1. What is a TypeORM entity vs repository in your Udemy project?
 2. What does `@Column({ unique: true })` enforce at DB level?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-05-20
 
 1. What validation rules apply to `AuthCredentialsDto`?
 2. What status code for duplicate email on register?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-05-21
 
 1. What claims go in a JWT access token payload (no secrets)?
 2. Where is the signing secret loaded from?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-05-22
 
 1. 401 vs 403: which applies to “wrong password”?
 2. What threat is mitigated by short-lived access tokens?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-05-23
 
 1. What is a migration in TypeORM/Postgres terms?
 2. What did Docker Compose provide for Postgres locally?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-05-24
 
 1. How will you migrate from TypeORM (Udemy) to Prisma (`portfolio-api`) without mixing ORMs?
 2. What is your refresh-token story (implemented or deferred)?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 7 — JWT guard + roles + Udemy auth (2026-05-25 — 2026-05-31)
 
@@ -933,49 +933,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. How does Passport JWT strategy populate `req.user`?
 2. What happens if the token is expired — where is that checked?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-05-26
 
 1. How does `@CurrentUser()` get its value?
 2. Why use a custom parameter decorator?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-05-27
 
 1. What is `@Public()` for, if most routes are protected?
 2. How does `JwtAuthGuard` decide 401?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-05-28
 
 1. What is `RolesGuard` checking, and when is 403 returned?
 2. How do you test “user A cannot touch user B’s resource”?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-05-29
 
 1. How do you attach Bearer token in Swagger “Authorize”?
 2. What is your refresh endpoint contract (or why deferred)?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-05-30
 
 1. Malformed `Authorization` header: what status and why?
 2. What did you document for cookie vs header token storage?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-05-31
 
 1. In one minute: middleware vs guard vs interceptor.
 2. What will your first Supertest test assert?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 8 — Supertest integration tests + Udemy testing (2026-06-01 — 2026-06-07)
 
@@ -984,49 +984,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. How do you bootstrap the Nest app inside an e2e test?
 2. Why use Supertest instead of raw `fetch` in tests?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-06-02
 
 1. Write the happy path steps for register → login → protected route in test language.
 2. What DB strategy did you pick for e2e (mock, sqlite, docker) and why?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-06-03
 
 1. What assertion proves 401 when the token is missing?
 2. How do you reset DB state between tests?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-06-04
 
 1. What CRUD sequence did you cover in e2e?
 2. What flake did you fix (timing, shared state)?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-06-05
 
 1. 409/404: which error path did you test and how?
 2. What is in `test:e2e` script vs `test`?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-06-06
 
 1. What remains from Udemy testing lectures to apply to `portfolio-api`?
 2. What would you add to CI first: lint, unit, or e2e?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-06-07
 
 1. Explain middleware vs guard vs interceptor from your own code paths.
 2. What Prisma topic will you tackle on Week 9 Mon?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 9 — Docker Compose + Prisma init (+ Udemy wrap-up) (2026-06-08 — 2026-06-14)
 
@@ -1035,49 +1035,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What does `docker-compose.yml` provide for local Postgres?
 2. What is `DATABASE_URL` format for Prisma?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-06-09
 
 1. What files does `prisma init` create?
 2. Why not use `db pull` for a greenfield schema?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-06-10
 
 1. How does Prisma model a relation vs TypeORM entity relations?
 2. What is a named migration and why commit it?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-06-11
 
 1. How does `PrismaService` connect/disconnect on Nest lifecycle?
 2. Where should `PrismaClient` be instantiated once?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-06-12
 
 1. How do you replace in-memory user creation with `prisma.user.create`?
 2. What transaction boundary would you use for user+profile creation?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-06-13
 
 1. How do you run migrations against a fresh clone?
 2. What does `prisma studio` help you verify?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-06-14
 
 1. What broke in integration tests when DB became real, and how did you fix it?
 2. Screenshot or describe your schema after today.
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 10 — Relations + indexes (2026-06-15 — 2026-06-21)
 
@@ -1086,49 +1086,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. Model 1–N: which side holds the foreign key in Prisma?
 2. What is `include` vs `select` for list endpoints?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-06-16
 
 1. Why index foreign keys and common filters?
 2. What is an N+1 query and how does Prisma amplify or avoid it?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-06-17
 
 1. How is an implicit many-to-many represented in Prisma schema?
 2. When would you use an explicit join model instead?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-06-18
 
 1. Give an example where `select` reduces payload size.
 2. What is over-fetching in list APIs?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-06-19
 
 1. What `onDelete` behavior did you choose and why?
 2. What breaks if you cascade-delete the wrong direction?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-06-20
 
 1. What did `EXPLAIN` (or reasoning) show about a slow query?
 2. How did you refactor repositories/services for clarity?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-06-21
 
 1. Paste or describe your ERD: entities and cardinalities.
 2. What relation test failed first, and what did you learn?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 11 — Transactions + seed (2026-06-22 — 2026-06-28)
 
@@ -1137,49 +1137,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. When must you use `prisma.$transaction`?
 2. What happens if step 2 throws after step 1 succeeded without a transaction?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-06-23
 
 1. How do you make seed idempotent (upsert vs wipe)?
 2. Why never put production secrets in seed scripts?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-06-24
 
 1. What demo users/data does your seed create?
 2. How do you run seed from package.json?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-06-25
 
 1. What is the Prisma seed hook in package.json for?
 2. What env does seed use — dev only?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-06-26
 
 1. What credentials are documented for local demo only?
 2. What would you change before a public demo?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-06-27
 
 1. What integration test covers your transactional flow?
 2. Name one Prisma transaction interview talking point.
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-06-28
 
 1. Mid-month retro: what is the riskiest part of your data model now?
 2. What failing test is blocking you?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 12 — Refactor persistence + green tests (2026-06-29 — 2026-07-05)
 
@@ -1188,49 +1188,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What in-memory code did you delete today?
 2. What is the single source of truth for persistence now?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-06-30
 
 1. What race condition appeared in e2e and how was it fixed?
 2. Serial vs parallel tests: what did you choose?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-07-01
 
 1. How is `DATABASE_URL_TEST` different from dev?
 2. What is the reset strategy between tests?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-07-02
 
 1. What is your production migration command (`migrate deploy`)?
 2. Where does it run in CI/CD later?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-07-03
 
 1. How did you check for N+1 on a list endpoint?
 2. What `include` change fixed it?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-07-04
 
 1. What makes your test suite deterministic enough for CI?
 2. What did you name Project 1 repo and why?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-07-05
 
 1. List up to 5 technical-debt items honestly.
 2. What is the first Project 1 user story you will implement in Week 13?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 13 — Domain modeling (orgs / members / roles) (2026-07-06 — 2026-07-12)
 
@@ -1239,49 +1239,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What user stories capture org + membership + core workflow?
 2. Who are the actors (roles)?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-07-07
 
 1. Draw or list entities: Organization, Member, Role, core entity — relations.
 2. What constraints are DB-enforced vs app-enforced?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-07-08
 
 1. What Prisma relation names and fields did you choose?
 2. What is unique across tenants (slug, id)?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-07-09
 
 1. What did the first migration introduce?
 2. What did you intentionally leave out of v1?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-07-10
 
 1. How will invites work (token, code, email) at a high level?
 2. What is out of scope for the first cut?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-07-11
 
 1. How do you enforce “only OWNER can X” in code?
 2. What does Swagger document for org creation?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-07-12
 
 1. What permission check secures org-scoped resources?
 2. What React screens will consume these endpoints first?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 14 — Workflows + permissions + list APIs (2026-07-13 — 2026-07-19)
 
@@ -1290,49 +1290,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. How is core entity CRUD scoped to an org in queries?
 2. What guard or service check prevents cross-org access?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-07-14
 
 1. What pagination DTO fields did you validate?
 2. Default page size — why cap it?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-07-15
 
 1. How does Prisma prevent SQL injection compared to string-built SQL?
 2. What sort fields are allowlisted?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-07-16
 
 1. How does your invite/join token get validated?
 2. What is the expiry story?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-07-17
 
 1. What role change rules did you implement or defer?
 2. What TODO is documented honestly?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-07-18
 
 1. What requests are in your Postman collection for happy paths?
 2. What status for cross-org access attempt?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-07-19
 
 1. What integration test covers org + entity creation?
 2. What did you scaffold for the React app (Vite)?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 15 — React client (auth + main screens) (2026-07-20 — 2026-07-26)
 
@@ -1341,49 +1341,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. How does your fetch wrapper handle 401?
 2. Where does base API URL come from (env)?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-07-21
 
 1. Where is the token stored — cookie vs memory vs localStorage — and one tradeoff?
 2. What is the CSRF implication of cookies?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-07-22
 
 1. How does org switching change API calls?
 2. What state lives in React vs URL?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-07-23
 
 1. What loading / empty / error UX did you implement?
 2. What would a user see on network failure?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-07-24
 
 1. What form validation mirrors server validation?
 2. What CORS settings are required for credentials?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-07-25
 
 1. What polish improved perceived quality without big design time?
 2. What screenshot did you capture for README?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-07-26
 
 1. What CORS bug did you hit and how did you fix it?
 2. What is left before hardening week?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 16 — Hardening + README (2026-07-27 — 2026-08-02)
 
@@ -1392,49 +1392,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What does `/health` check besides process up?
 2. Would you ping DB in health — tradeoffs?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-07-28
 
 1. What routes are rate-limited and why those?
 2. What is a reasonable limit for auth routes?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-07-29
 
 1. What origins are allowed in prod vs dev for CORS?
 2. What about credentials + wildcard origins?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-07-30
 
 1. What does your README promise for `docker compose up`?
 2. What prerequisite versions are listed?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-07-31
 
 1. What secrets exist in `.env.example` vs real `.env`?
 2. What is redacted in logs?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-08-01
 
 1. What failed when someone else followed your README?
 2. What security guarantees do you _not_ claim?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-08-02
 
 1. What blocks deployment next month?
 2. What checklist item from portfolio doc is still open?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 17 — GitHub Actions (2026-08-03 — 2026-08-09)
 
@@ -1443,49 +1443,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What jobs run on each PR in GitHub Actions?
 2. Why `npm ci` vs `npm install` in CI?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-08-04
 
 1. What Node version is pinned and where?
 2. Why pin instead of `lts/`\* sometimes?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-08-05
 
 1. How do you run Postgres for e2e in CI — service container or skip?
 2. What is the failure mode if DB is missing?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-08-06
 
 1. What branch protection rules do you want?
 2. What is required status check name?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-08-07
 
 1. What does the README badge prove?
 2. What is _not_ proven by a green badge?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-08-08
 
 1. What flaky test did you fix and root cause?
 2. What doc did you add for “debugging CI”?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-08-09
 
 1. Which host (Railway/Render/Fly) did you pick and why?
 2. What env vars must exist in production?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 18 — Deploy API + DB (2026-08-10 — 2026-08-16)
 
@@ -1494,49 +1494,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What managed Postgres did you use?
 2. How is `DATABASE_URL` injected securely?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-08-11
 
 1. What build/start commands does the platform run?
 2. What Node version does prod use?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-08-12
 
 1. When do migrations run relative to app start?
 2. What happens if migration fails mid-deploy?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-08-13
 
 1. What smoke test did you run on the public URL?
 2. What is still HTTP-only that should be HTTPS?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-08-14
 
 1. Where is the frontend hosted and how does it get API URL?
 2. What env prefix does Vite/Next need?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-08-15
 
 1. What CORS origin is configured for prod frontend?
 2. What cookie settings break across domains?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-08-16
 
 1. What is your one-paragraph rollback plan?
 2. What prod bug did logs reveal?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 19 — Logging + request tracing (2026-08-17 — 2026-08-23)
 
@@ -1545,49 +1545,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What fields are in every log line in prod?
 2. What is redacted?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-08-18
 
 1. How is request id propagated?
 2. How do you find all logs for one request?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-08-19
 
 1. What is your slow-request threshold and what do you log?
 2. When would you add APM?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-08-20
 
 1. What stack traces are visible in prod vs dev?
 2. What is the security tradeoff?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-08-21
 
 1. Where do platform logs live for your host?
 2. What query do you run to find 5xx?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-08-22
 
 1. Why Sentry (or why skip) for this project?
 2. What secret did you rotate after a scare?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-08-23
 
 1. What RPS or latency baseline did you measure on `/health`?
 2. What feature is Project 2 vs polishing Project 1?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 20 — Project 2 or differentiator (2026-08-24 — 2026-08-30)
 
@@ -1596,49 +1596,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. Which differentiator did you choose and why?
 2. What is the smallest vertical slice?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-08-25
 
 1. What did the spike prove in one branch?
 2. What failed fast in the spike?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-08-26
 
 1. What signature verification or OAuth state param matters for your choice?
 2. What attack are you preventing?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-08-27
 
 1. How is the feature isolated (module/flag)?
 2. What config is new in env?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-08-28
 
 1. What happy-path test did you add?
 2. What malicious or replay case did you consider?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-08-29
 
 1. What is visible in UI or API docs for the feature?
 2. What README section did you add?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-08-30
 
 1. What edge case burned time?
 2. What documentation task is queued for Month 6?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 21 — Docs + diagram + security audit (2026-08-31 — 2026-09-06)
 
@@ -1647,49 +1647,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What does your architecture diagram communicate in 30 seconds?
 2. What is intentionally out of scope?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-09-01
 
 1. What troubleshooting entry saved you time?
 2. What error message do new devs hit most?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-09-02
 
 1. What is in your threat model for auth?
 2. What about CSRF for cookie sessions?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-09-03
 
 1. What vulnerability did `npm audit` surface?
 2. What was your upgrade decision?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-09-04
 
 1. What limitation are you honest about in README?
 2. What would you fund next if you had a week?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-09-05
 
 1. What is in your 2–3 min demo script?
 2. What story does the demo _not_ tell?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-09-06
 
 1. What friction did a peer hit following your README?
 2. What three fixes did you prioritize?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 22 — Resume + profiles (2026-09-07 — 2026-09-13)
 
@@ -1698,49 +1698,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What metric or scale claim can you defend on Project 1?
 2. What is verifiable in the repo (tests, CI)?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-09-08
 
 1. What deployment + migration wording is on your resume?
 2. What link proves the live demo?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-09-09
 
 1. What differentiator bullet is true and specific?
 2. What buzzword did you remove?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-09-10
 
 1. What keywords align your LinkedIn with fullstack hiring?
 2. What role title are you targeting?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-09-11
 
 1. What do pinned repos descriptions emphasize?
 2. What repo is _not_ pinned and why?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-09-12
 
 1. What numbers on your resume are estimates vs measured?
 2. What feedback did you get on clarity?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-09-13
 
 1. What one-page portfolio site URL or section exists?
 2. What mentor feedback changed your pitch?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 23 — System design + your stack (2026-09-14 — 2026-09-20)
 
@@ -1749,49 +1749,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. Draw auth: login → access → refresh → logout without looking at code.
 2. Where is refresh stored and rotated?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-09-15
 
 1. What entities can you draw from memory?
 2. What index would you add under read-heavy load?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-09-16
 
 1. What is stateless about your API servers?
 2. Where would Redis fit first — cache or rate limit?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-09-17
 
 1. When would you drop Prisma for raw SQL?
 2. What is an example query you’d optimize?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-09-18
 
 1. What mock interview question stumped you — refined answer now?
 2. What diagram would you draw on a whiteboard first?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-09-19
 
 1. What weak area did you drill — summary in 3 bullets?
 2. What 20 facts about _your_ codebase are flashcard-worthy?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-09-20
 
 1. What behavioral story will you tell in interviews?
 2. What sleep/app schedule supports Week 24 applications?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 24 — Applications + iteration (2026-09-21 — 2026-09-27)
 
@@ -1800,49 +1800,49 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. How many applications/week is your target?
 2. What tracker columns do you use?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-09-22
 
 1. What company-specific line did you add to two applications?
 2. What research took longer than expected?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-09-23
 
 1. What follow-up template do you use?
 2. What networking norm do you follow (if any)?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Thu 2026-09-24
 
 1. How do you timebox take-home assignments?
 2. What do you do if spec is ambiguous?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-09-25
 
 1. How do you handle ghosting emotionally and practically?
 2. What one pitch change did you make after rejection?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-09-26
 
 1. What portfolio change came from real interview feedback?
 2. What would you tell yourself on day 1 (Apr 13)?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-09-27
 
 1. What open-source issue did you pick (or why rest)?
 2. What maintenance cadence will you keep for demos?
 
-- **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ## Daily logging (30 seconds)
 
