@@ -120,7 +120,7 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 | Mon | 2026-04-13 | 1h   | [x]  | Install **Node LTS**; `node -v` / `npm -v`; create folder `playground-node`; `npm init -y`.                                  |
 | Tue | 2026-04-14 | 1h   | [x]  | Add **TypeScript** (or plain JS first week—pick one and keep): `tsconfig`, compile/run script; one `console.log` entry file. |
 | Wed | 2026-04-15 | 1h   | [x]  | Load config: `.env` + `.env.example` (no secrets in git); read one variable in code; document in README stub.                |
-| Thu | 2026-04-16 | 1h   | [ ]  | **async/await**: one function that `await`s a `Promise`; `try/catch`; log error without killing the process wrongly.         |
+| Thu | 2026-04-16 | 1h   | [x]  | **async/await**: one function that `await`s a `Promise`; `try/catch`; log error without killing the process wrongly.         |
 | Fri | 2026-04-17 | 1h   | [ ]  | `package.json` scripts: `build`, `start` (and `dev` if using watch); run from clean `npm install`.                           |
 | Sat | 2026-04-18 | 1h   | [ ]  | Skim Node “event loop” / timers docs; write **5 bullets** in your notes (“what blocks vs defers”).                           |
 | Sat | 2026-04-18 | 1h   | [ ]  | **Validate env** with Zod (or manual): fail fast with clear message if required vars missing.                                |
@@ -648,7 +648,7 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What happens to an unhandled `Promise` rejection in Node? How does `try/catch` around `await` help?
 2. In one sentence: what runs on the microtask queue vs the next tick?
 
-- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-04-17
 
