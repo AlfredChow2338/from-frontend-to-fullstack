@@ -146,3 +146,11 @@ Active Record
 - Define query method inside model itself
 - Save, remove and load objects using model methods
 - Keep things simple in smaller app
+
+### Store password in database
+
+- Adding a salt and a hash to passwords before storing
+- Irreversibility: Cannot reverse a hash to get the original password back
+- Validation: System hashes the entered password and compares it to the stored hash
+- Protection: If a hacker steals the database, they only get a list of hashes, not the actual passwords
+- Defeats Rainbow Tables: Hides identical passwords
