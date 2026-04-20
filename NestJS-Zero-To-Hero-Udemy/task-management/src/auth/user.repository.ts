@@ -17,12 +17,11 @@ export class UserReposityory extends Repository<User> {
     const salt = await bcrypt.genSalt();
     const hashedPassword = await bcrypt.hash(password, salt);
 
-    console.log({ salt, hashedPassword });
-
     const user = this.create({
       username,
       password: hashedPassword,
     });
+
     try {
       await this.save(user);
     } catch (error) {

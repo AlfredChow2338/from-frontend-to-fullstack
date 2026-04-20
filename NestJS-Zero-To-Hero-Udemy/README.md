@@ -154,3 +154,14 @@ Active Record
 - Validation: System hashes the entered password and compares it to the stored hash
 - Protection: If a hacker steals the database, they only get a list of hashes, not the actual passwords
 - Defeats Rainbow Tables: Hides identical passwords
+
+### JSON Web Tokens
+
+- Open-source industrial standard (RFC-7519)
+- Useful for Authorization of security information exchange between parites
+- Verify the sender is who she claims to be
+- Signed by the issuer, using a secret or keypair (HMAC algorithm, RSA or ECDSA)
+- Structure
+  - Header: metadata eg. type, hashing algorithm
+  - Payload: claims (statement of an entity eg. a user) and additional data
+  - Signature: the result of encoded header, encoded payload signed against secret
