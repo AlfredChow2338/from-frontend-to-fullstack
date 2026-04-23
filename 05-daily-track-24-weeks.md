@@ -142,7 +142,7 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 | Mon | 2026-04-20 | 1h   | [ ]  | List **HTTP verbs** you will use; one sentence each for when you use GET/POST/PATCH/DELETE.                           |
 | Tue | 2026-04-21 | 1h   | [ ]  | **Status codes**: write a mini table (200, 201, 204, 400, 401, 403, 404, 409, 422) with one example use each.         |
 | Wed | 2026-04-22 | 1h   | [ ]  | **Idempotency**: explain which verbs are idempotent; note where retries matter.                                       |
-| Thu | 2026-04-23 | 1h   | [ ]  | **Error shape**: define a JSON error body `{ code, message, details? }` on paper for your API.                        |
+| Thu | 2026-04-23 | 1h   | [x]  | **Error shape**: define a JSON error body `{ code, message, details? }` on paper for your API.                        |
 | Fri | 2026-04-24 | 1h   | [ ]  | **Pagination**: choose cursor vs offset for a list endpoint; write pros/cons in notes.                                |
 | Sat | 2026-04-25 | 1h   | [ ]  | Design **one resource** (e.g. `Note`): fields, routes, who can call.                                                  |
 | Sat | 2026-04-25 | 1h   | [ ]  | Draw request/response for **create** + **update** + **list** (paper or Excalidraw).                                   |
@@ -699,7 +699,7 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. Sketch your standard JSON error shape and when you’d include `details`.
 2. How do you avoid leaking internal errors to clients in production?
 
-- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-04-24
 
