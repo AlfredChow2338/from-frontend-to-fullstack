@@ -121,7 +121,7 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 | Tue | 2026-04-14 | 1h   | [x]  | Add **TypeScript** (or plain JS first week—pick one and keep): `tsconfig`, compile/run script; one `console.log` entry file. |
 | Wed | 2026-04-15 | 1h   | [x]  | Load config: `.env` + `.env.example` (no secrets in git); read one variable in code; document in README stub.                |
 | Thu | 2026-04-16 | 1h   | [x]  | **async/await**: one function that `await`s a `Promise`; `try/catch`; log error without killing the process wrongly.         |
-| Fri | 2026-04-17 | 1h   | [ ]  | `package.json` scripts: `build`, `start` (and `dev` if using watch); run from clean `npm install`.                           |
+| Fri | 2026-04-17 | 1h   | [x]  | `package.json` scripts: `build`, `start` (and `dev` if using watch); run from clean `npm install`.                           |
 | Sat | 2026-04-18 | 1h   | [ ]  | Skim Node “event loop” / timers docs; write **5 bullets** in your notes (“what blocks vs defers”).                           |
 | Sat | 2026-04-18 | 1h   | [ ]  | **Validate env** with Zod (or manual): fail fast with clear message if required vars missing.                                |
 | Sat | 2026-04-18 | 1h   | [ ]  | Split code: `src/config.ts` + `src/main.ts` (or `.js`); one import path clean.                                               |
@@ -655,7 +655,7 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What is the purpose of the `scripts` field in `package.json`? Give an example `npm run` you added.
 2. What is the difference between `dependencies` and `devDependencies`?
 
-- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-04-18
 
