@@ -144,10 +144,10 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 | Wed | 2026-04-22 | 1h   | [ ]  | **Idempotency**: explain which verbs are idempotent; note where retries matter.                                       |
 | Thu | 2026-04-23 | 1h   | [x]  | **Error shape**: define a JSON error body `{ code, message, details? }` on paper for your API.                        |
 | Fri | 2026-04-24 | 1h   | [x]  | **Pagination**: choose cursor vs offset for a list endpoint; write pros/cons in notes.                                |
-| Sat | 2026-04-25 | 1h   | [ ]  | Design **one resource** (e.g. `Note`): fields, routes, who can call.                                                  |
-| Sat | 2026-04-25 | 1h   | [ ]  | Draw request/response for **create** + **update** + **list** (paper or Excalidraw).                                   |
-| Sat | 2026-04-25 | 1h   | [ ]  | List **domain errors** vs **validation errors**; map each to HTTP status.                                             |
-| Sat | 2026-04-25 | 1h   | [ ]  | Optional: read MDN “HTTP overview” skim; bookmark for later.                                                          |
+| Sat | 2026-04-25 | 1h   | [x]  | Design **one resource** (e.g. `Note`): fields, routes, who can call.                                                  |
+| Sat | 2026-04-25 | 1h   | [x]  | Draw request/response for **create** + **update** + **list** (paper or Excalidraw).                                   |
+| Sat | 2026-04-25 | 1h   | [x]  | List **domain errors** vs **validation errors**; map each to HTTP status.                                             |
+| Sat | 2026-04-25 | 1h   | [x]  | Optional: read MDN “HTTP overview” skim; bookmark for later.                                                          |
 | Sun | 2026-04-26 | 1h   | [ ]  | **Udemy:** Finish **Introduction + Getting Started** if not done (Nest CLI, first app in `udemy-zero-to-hero`).       |
 | Sun | 2026-04-26 | 1h   | [ ]  | Write **OpenAPI-style** summary (even if not YAML yet): paths + main schemas.                                         |
 | Sun | 2026-04-26 | 1h   | [ ]  | **Retro** + prep Week 3 (`portfolio-api` vs Udemy repo — see [two-repo rule](#udemy-nestjs-zero-to-hero-integrated)). |
@@ -713,7 +713,7 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. For your `Note` resource: list routes and who may call them (public vs auth).
 2. Draw the request body for `POST /notes` — required vs optional fields.
 
-- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-04-26
 
