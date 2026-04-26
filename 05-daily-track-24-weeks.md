@@ -148,10 +148,10 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 | Sat | 2026-04-25 | 1h   | [x]  | Draw request/response for **create** + **update** + **list** (paper or Excalidraw).                                   |
 | Sat | 2026-04-25 | 1h   | [x]  | List **domain errors** vs **validation errors**; map each to HTTP status.                                             |
 | Sat | 2026-04-25 | 1h   | [x]  | Optional: read MDN “HTTP overview” skim; bookmark for later.                                                          |
-| Sun | 2026-04-26 | 1h   | [ ]  | **Udemy:** Finish **Introduction + Getting Started** if not done (Nest CLI, first app in `udemy-zero-to-hero`).       |
-| Sun | 2026-04-26 | 1h   | [ ]  | Write **OpenAPI-style** summary (even if not YAML yet): paths + main schemas.                                         |
-| Sun | 2026-04-26 | 1h   | [ ]  | **Retro** + prep Week 3 (`portfolio-api` vs Udemy repo — see [two-repo rule](#udemy-nestjs-zero-to-hero-integrated)). |
-| Sun | 2026-04-26 | 1h   | [ ]  | Rest or catch-up; ensure Week 1 repo still runs.                                                                      |
+| Sun | 2026-04-26 | 1h   | [x]  | **Udemy:** Finish **Introduction + Getting Started** if not done (Nest CLI, first app in `udemy-zero-to-hero`).       |
+| Sun | 2026-04-26 | 1h   | [x]  | Write **OpenAPI-style** summary (even if not YAML yet): paths + main schemas.                                         |
+| Sun | 2026-04-26 | 1h   | [x]  | **Retro** + prep Week 3 (`portfolio-api` vs Udemy repo — see [two-repo rule](#udemy-nestjs-zero-to-hero-integrated)). |
+| Sun | 2026-04-26 | 1h   | [x]  | Rest or catch-up; ensure Week 1 repo still runs.                                                                      |
 
 ---
 
@@ -720,7 +720,7 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What did you create in `udemy-zero-to-hero` today, and how does it differ from `portfolio-api`?
 2. What is `nest new` doing on disk (folders you care about)?
 
-- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 3 — NestJS core (CRUD) + Udemy Task API (2026-04-27 — 2026-05-03)
 
