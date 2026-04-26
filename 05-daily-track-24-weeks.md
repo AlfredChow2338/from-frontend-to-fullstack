@@ -122,10 +122,10 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 | Wed | 2026-04-15 | 1h   | [x]  | Load config: `.env` + `.env.example` (no secrets in git); read one variable in code; document in README stub.                |
 | Thu | 2026-04-16 | 1h   | [x]  | **async/await**: one function that `await`s a `Promise`; `try/catch`; log error without killing the process wrongly.         |
 | Fri | 2026-04-17 | 1h   | [x]  | `package.json` scripts: `build`, `start` (and `dev` if using watch); run from clean `npm install`.                           |
-| Sat | 2026-04-18 | 1h   | [ ]  | Skim Node “event loop” / timers docs; write **5 bullets** in your notes (“what blocks vs defers”).                           |
-| Sat | 2026-04-18 | 1h   | [ ]  | **Validate env** with Zod (or manual): fail fast with clear message if required vars missing.                                |
-| Sat | 2026-04-18 | 1h   | [ ]  | Split code: `src/config.ts` + `src/main.ts` (or `.js`); one import path clean.                                               |
-| Sat | 2026-04-18 | 1h   | [ ]  | **Retro (15m)** + push repo to GitHub; `.gitignore` includes `node_modules`, `.env`.                                         |
+| Sat | 2026-04-18 | 1h   | [x]  | Skim Node “event loop” / timers docs; write **5 bullets** in your notes (“what blocks vs defers”).                           |
+| Sat | 2026-04-18 | 1h   | [x]  | **Validate env** with Zod (or manual): fail fast with clear message if required vars missing.                                |
+| Sat | 2026-04-18 | 1h   | [x]  | Split code: `src/config.ts` + `src/main.ts` (or `.js`); one import path clean.                                               |
+| Sat | 2026-04-18 | 1h   | [x]  | **Retro (15m)** + push repo to GitHub; `.gitignore` includes `node_modules`, `.env`.                                         |
 | Sun | 2026-04-19 | 1h   | [ ]  | Read one stack trace end-to-end; fix a deliberate bug using only the trace.                                                  |
 | Sun | 2026-04-19 | 1h   | [ ]  | Add **eslint** (or biome) minimal config; fix one lint issue.                                                                |
 | Sun | 2026-04-19 | 1h   | [ ]  | README: prerequisites + how to run; **checkpoint**: stranger could run `npm i && npm start`.                                 |
@@ -662,7 +662,7 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. List two things that are _not_ the same between browser JS and Node (APIs or globals).
 2. In your own words: what does “single-threaded event loop” mean for CPU-heavy work?
 
-- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-04-19
 
