@@ -126,10 +126,10 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 | Sat | 2026-04-18 | 1h   | [x]  | **Validate env** with Zod (or manual): fail fast with clear message if required vars missing.                                |
 | Sat | 2026-04-18 | 1h   | [x]  | Split code: `src/config.ts` + `src/main.ts` (or `.js`); one import path clean.                                               |
 | Sat | 2026-04-18 | 1h   | [x]  | **Retro (15m)** + push repo to GitHub; `.gitignore` includes `node_modules`, `.env`.                                         |
-| Sun | 2026-04-19 | 1h   | [ ]  | Read one stack trace end-to-end; fix a deliberate bug using only the trace.                                                  |
-| Sun | 2026-04-19 | 1h   | [ ]  | Add **eslint** (or biome) minimal config; fix one lint issue.                                                                |
-| Sun | 2026-04-19 | 1h   | [ ]  | README: prerequisites + how to run; **checkpoint**: stranger could run `npm i && npm start`.                                 |
-| Sun | 2026-04-19 | 1h   | [ ]  | Buffer: stretch (pre-read HTTP week) or catch-up.                                                                            |
+| Sun | 2026-04-19 | 1h   | [x]  | Read one stack trace end-to-end; fix a deliberate bug using only the trace.                                                  |
+| Sun | 2026-04-19 | 1h   | [x]  | Add **eslint** (or biome) minimal config; fix one lint issue.                                                                |
+| Sun | 2026-04-19 | 1h   | [x]  | README: prerequisites + how to run; **checkpoint**: stranger could run `npm i && npm start`.                                 |
+| Sun | 2026-04-19 | 1h   | [x]  | Buffer: stretch (pre-read HTTP week) or catch-up.                                                                            |
 
 ---
 
@@ -669,7 +669,7 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. Pick one line from a stack trace you saw: what file/function did it point to, and what did you change?
 2. What rule did ESLint enforce that you fixed, and why might that rule exist?
 
-- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 2 — HTTP & REST + Udemy start (2026-04-20 — 2026-04-26)
 
