@@ -161,7 +161,7 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 
 | Day | Date       | Time | Done | Task                                                                                                                                      |
 | --- | ---------- | ---- | ---- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Mon | 2026-04-27 | 1h   | [ ]  | `**portfolio-api`:\*\* `nest new` (separate from Udemy folder); run dev; understand `main.ts` + `AppModule` (compare with Udemy app).     |
+| Mon | 2026-04-27 | 1h   | [x]  | `**portfolio-api`:\*\* `nest new` (separate from Udemy folder); run dev; understand `main.ts` + `AppModule` (compare with Udemy app).     |
 | Tue | 2026-04-28 | 1h   | [ ]  | **Udemy (≤45 min):** Feature modules, controllers, providers — **Portfolio (rest):** add `**notes`\*\* module + empty controller/service. |
 | Wed | 2026-04-29 | 1h   | [ ]  | **Udemy (≤30 min):** DTOs / validation intro — **Portfolio:** `class-validator` DTOs + `ValidationPipe` on `notes`.                       |
 | Thu | 2026-04-30 | 1h   | [ ]  | **Portfolio:** **GET** list + **GET** by id + **POST**; return DTOs (reuse patterns from Udemy task entity).                              |
@@ -729,7 +729,7 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What is the responsibility of a Nest module vs a controller vs a service?
 2. What is a DTO and why validate at the boundary?
 
-- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-04-28
 
