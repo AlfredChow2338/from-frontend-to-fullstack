@@ -139,7 +139,7 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 
 | Day | Date       | Time | Done | Task                                                                                                                  |
 | --- | ---------- | ---- | ---- | --------------------------------------------------------------------------------------------------------------------- |
-| Mon | 2026-04-20 | 1h   | [ ]  | List **HTTP verbs** you will use; one sentence each for when you use GET/POST/PATCH/DELETE.                           |
+| Mon | 2026-04-20 | 1h   | [x]  | List **HTTP verbs** you will use; one sentence each for when you use GET/POST/PATCH/DELETE.                           |
 | Tue | 2026-04-21 | 1h   | [ ]  | **Status codes**: write a mini table (200, 201, 204, 400, 401, 403, 404, 409, 422) with one example use each.         |
 | Wed | 2026-04-22 | 1h   | [ ]  | **Idempotency**: explain which verbs are idempotent; note where retries matter.                                       |
 | Thu | 2026-04-23 | 1h   | [x]  | **Error shape**: define a JSON error body `{ code, message, details? }` on paper for your API.                        |
@@ -678,7 +678,7 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. When do you use POST vs PATCH for a “Note” resource?
 2. Which HTTP status would you return for validation errors vs “not found”?
 
-- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Tue 2026-04-21
 
