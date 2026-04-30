@@ -164,7 +164,7 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 | Mon | 2026-04-27 | 1h   | [x]  | `**portfolio-api`:\*\* `nest new` (separate from Udemy folder); run dev; understand `main.ts` + `AppModule` (compare with Udemy app).     |
 | Tue | 2026-04-28 | 1h   | [ ]  | **Udemy (≤45 min):** Feature modules, controllers, providers — **Portfolio (rest):** add `**notes`\*\* module + empty controller/service. |
 | Wed | 2026-04-29 | 1h   | [ ]  | **Udemy (≤30 min):** DTOs / validation intro — **Portfolio:** `class-validator` DTOs + `ValidationPipe` on `notes`.                       |
-| Thu | 2026-04-30 | 1h   | [ ]  | **Portfolio:** **GET** list + **GET** by id + **POST**; return DTOs (reuse patterns from Udemy task entity).                              |
+| Thu | 2026-04-30 | 1h   | [x]  | **Portfolio:** **GET** list + **GET** by id + **POST**; return DTOs (reuse patterns from Udemy task entity).                              |
 | Fri | 2026-05-01 | 1h   | [ ]  | **Portfolio:** **PATCH** + **DELETE**; `NotFoundException` for bad ids.                                                                   |
 | Sat | 2026-05-02 | 1h   | [ ]  | **Udemy:** Any remaining Task CRUD / structure lectures.                                                                                  |
 | Sat | 2026-05-02 | 1h   | [ ]  | **Portfolio:** Exception filter or Nest defaults; 404/400 bodies match Week 2 error shape.                                                |
@@ -750,7 +750,7 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. How do you return 404 for unknown id — which exception type?
 2. Why return a response DTO instead of the raw entity?
 
-- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Fri 2026-05-01
 
