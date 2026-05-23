@@ -165,7 +165,7 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 | Tue | 2026-04-28 | 1h   | [x]  | **Udemy (≤45 min):** Feature modules, controllers, providers — **Portfolio (rest):** add `**notes`\*\* module + empty controller/service. |
 | Wed | 2026-04-29 | 1h   | [ ]  | **Udemy (≤30 min):** DTOs / validation intro — **Portfolio:** `class-validator` DTOs + `ValidationPipe` on `notes`.                       |
 | Thu | 2026-04-30 | 1h   | [x]  | **Portfolio:** **GET** list + **GET** by id + **POST**; return DTOs (reuse patterns from Udemy task entity).                              |
-| Fri | 2026-05-01 | 1h   | [ ]  | **Portfolio:** **PATCH** + **DELETE**; `NotFoundException` for bad ids.                                                                   |
+| Fri | 2026-05-01 | 1h   | [x]  | **Portfolio:** **PATCH** + **DELETE**; `NotFoundException` for bad ids.                                                                   |
 | Sat | 2026-05-02 | 1h   | [ ]  | **Udemy:** Any remaining Task CRUD / structure lectures.                                                                                  |
 | Sat | 2026-05-02 | 1h   | [ ]  | **Portfolio:** Exception filter or Nest defaults; 404/400 bodies match Week 2 error shape.                                                |
 | Sat | 2026-05-02 | 1h   | [ ]  | **Portfolio:** In-memory store in service; **query** validation (e.g. pagination DTO) on list.                                            |
@@ -757,7 +757,7 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. PATCH vs PUT in your API: which did you implement and why?
 2. How do you avoid overwriting fields the client omitted in PATCH?
 
-- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sat 2026-05-02
 
