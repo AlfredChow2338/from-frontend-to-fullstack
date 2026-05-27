@@ -166,10 +166,10 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 | Wed | 2026-04-29 | 1h   | [x]  | **Udemy (≤30 min):** DTOs / validation intro — **Portfolio:** `class-validator` DTOs + `ValidationPipe` on `notes`.                       |
 | Thu | 2026-04-30 | 1h   | [x]  | **Portfolio:** **GET** list + **GET** by id + **POST**; return DTOs (reuse patterns from Udemy task entity).                              |
 | Fri | 2026-05-01 | 1h   | [x]  | **Portfolio:** **PATCH** + **DELETE**; `NotFoundException` for bad ids.                                                                   |
-| Sat | 2026-05-02 | 1h   | [ ]  | **Udemy:** Any remaining Task CRUD / structure lectures.                                                                                  |
-| Sat | 2026-05-02 | 1h   | [ ]  | **Portfolio:** Exception filter or Nest defaults; 404/400 bodies match Week 2 error shape.                                                |
-| Sat | 2026-05-02 | 1h   | [ ]  | **Portfolio:** In-memory store in service; **query** validation (e.g. pagination DTO) on list.                                            |
-| Sat | 2026-05-02 | 1h   | [ ]  | **Portfolio:** **curl** or REST Client; `docs/requests.http`.                                                                             |
+| Sat | 2026-05-02 | 1h   | [x]  | **Udemy:** Any remaining Task CRUD / structure lectures.                                                                                  |
+| Sat | 2026-05-02 | 1h   | [x]  | **Portfolio:** Exception filter or Nest defaults; 404/400 bodies match Week 2 error shape.                                                |
+| Sat | 2026-05-02 | 1h   | [x]  | **Portfolio:** In-memory store in service; **query** validation (e.g. pagination DTO) on list.                                            |
+| Sat | 2026-05-02 | 1h   | [x]  | **Portfolio:** **curl** or REST Client; `docs/requests.http`.                                                                             |
 | Sun | 2026-05-03 | 1h   | [ ]  | **Portfolio:** Thin controller, fat service.                                                                                              |
 | Sun | 2026-05-03 | 1h   | [ ]  | **Portfolio:** Invalid body → 400; wrong id → 404.                                                                                        |
 | Sun | 2026-05-03 | 2h   | [ ]  | Buffer or catch-up; tag commit `week-3-crud`.                                                                                             |
@@ -764,7 +764,7 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. Where did you put business logic — controller or service — and why?
 2. How do you test a route manually with curl or REST Client?
 
-- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Sun 2026-05-03
 
