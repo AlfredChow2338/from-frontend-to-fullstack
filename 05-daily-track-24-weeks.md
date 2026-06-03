@@ -170,9 +170,9 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 | Sat | 2026-05-02 | 1h   | [x]  | **Portfolio:** Exception filter or Nest defaults; 404/400 bodies match Week 2 error shape.                                                |
 | Sat | 2026-05-02 | 1h   | [x]  | **Portfolio:** In-memory store in service; **query** validation (e.g. pagination DTO) on list.                                            |
 | Sat | 2026-05-02 | 1h   | [x]  | **Portfolio:** **curl** or REST Client; `docs/requests.http`.                                                                             |
-| Sun | 2026-05-03 | 1h   | [ ]  | **Portfolio:** Thin controller, fat service.                                                                                              |
-| Sun | 2026-05-03 | 1h   | [ ]  | **Portfolio:** Invalid body → 400; wrong id → 404.                                                                                        |
-| Sun | 2026-05-03 | 2h   | [ ]  | Buffer or catch-up; tag commit `week-3-crud`.                                                                                             |
+| Sun | 2026-05-03 | 1h   | [x]  | **Portfolio:** Thin controller, fat service.                                                                                              |
+| Sun | 2026-05-03 | 1h   | [x]  | **Portfolio:** Invalid body → 400; wrong id → 404.                                                                                        |
+| Sun | 2026-05-03 | 2h   | [x]  | Buffer or catch-up; tag commit `week-3-crud`.                                                                                             |
 
 ---
 
@@ -771,7 +771,7 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What is “thin controller, fat service” in one example from your code?
 2. What edge cases did you handle for list pagination?
 
-- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 ### Week 4 — Swagger + unit tests + Udemy validation (2026-05-04 — 2026-05-10)
 
