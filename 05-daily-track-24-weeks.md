@@ -183,7 +183,7 @@ Each calendar day has **two questions** under **[Daily assignments by calendar d
 | Day | Date       | Time | Done | Task                                                                                                                          |
 | --- | ---------- | ---- | ---- | ----------------------------------------------------------------------------------------------------------------------------- |
 | Mon | 2026-05-04 | 1h   | [x]  | **Udemy (≤30 min):** Validation pipes recap — **Portfolio:** `@nestjs/swagger`; Swagger UI path; document one DTO.            |
-| Tue | 2026-05-05 | 1h   | [ ]  | **Portfolio:** Decorate all **notes** routes with summaries + response types.                                                 |
+| Tue | 2026-05-05 | 1h   | [x]  | **Portfolio:** Decorate all **notes** routes with summaries + response types.                                                 |
 | Wed | 2026-05-06 | 1h   | [ ]  | **Portfolio:** **tags** + example bodies for POST/PATCH in Swagger.                                                           |
 | Thu | 2026-05-07 | 1h   | [ ]  | **Udemy (≤30 min):** Error-handling lecture skim — **Portfolio:** **Jest** default test; `describe` / `it`.                   |
 | Fri | 2026-05-08 | 1h   | [ ]  | **Portfolio:** Unit test one pure function or service method (e.g. entity → response DTO).                                    |
@@ -787,7 +787,7 @@ Two questions per date; **Assignment done** is required to count the calendar da
 1. What is the difference between `@ApiResponse` and your actual runtime behavior?
 2. Why add example bodies to POST in Swagger?
 
-- [ ] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
+- [x] **Assignment done** (written answers in your notes / repo — required to count this calendar day complete)
 
 #### Wed 2026-05-06
 
